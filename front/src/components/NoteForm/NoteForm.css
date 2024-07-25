@@ -1,0 +1,75 @@
+body {
+  background-color: rgb(145, 163, 190);
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+section {
+  width: 500px;
+  height: 350px;
+  text-align: center;
+  padding: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+input {
+  width: 300px;
+  height: 40px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: rgb(165, 177, 194);
+  font-size: 1.7em;
+}
+
+textarea {
+  width: 300px;
+  max-width: 450px;
+  min-width: 450px;
+  max-height: 100px;
+  min-height: 100px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  font-size: 1.7em;
+  background-color: rgb(165, 177, 194);
+}
+
+button {
+  color: white;
+  font-size: 1.5em;
+  padding: 10px 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+button:hover {
+  color: black;
+}
+
+filter {
+  display: block;
+  width: 500px;
+  height: 350px;
+}
+
+select {
+  width: 500px;
+  height: 35px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.4em;
+  margin-left: 35px;
+  background-color: rgb(165, 177, 194);
+}
+
+.search-filter {
+  font-size: 1em;
+  width: 500px;
+  height: 35px;
+}

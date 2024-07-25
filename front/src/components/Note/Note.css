@@ -1,0 +1,33 @@
+.card {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  display: block;
+  width: 700px;
+  height: 200px;
+  margin-left: 250px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.note-body {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.description {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  max-width: 650px;
+}
+
+.delete-bttn{
+  padding: 5px;
+  font-size: 1em;
+  float: right;
+  
+}
+
+.edit-bttn{
+  padding: 5px;
+  font-size: 1em;
+  float: left;
+}
